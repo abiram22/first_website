@@ -1,0 +1,153 @@
+.dino{
+  position: absolute;
+  width:30%;
+  height: auto;
+  top:50px;
+  left: 20px;
+  bottom: 0px;
+
+}
+.asteroid{
+position: absolute;
+width: 20%;
+height: auto;
+right: 75px;
+}
+
+.bush{
+  position: absolute;
+  width:35%;
+  height: auto;
+  right: 20px;
+  top: 250px;
+}
+.first_container{
+  height: 450px;
+}
+.heading{
+  display: inline-block;
+  margin: 150px auto auto auto;
+  width: 50%;
+}
+.boy{
+  width: 9.375%;
+  height: auto;
+  margin: 6% auto 1% auto;
+}
+.coding{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 10%;
+
+}
+.watching{
+  width:25%;
+  height:25%;
+  float: right;
+
+}
+.wat{
+  margin-top: 18%;
+
+}
+.footer{
+  position: absolute;
+  margin-top: 0px;
+  height: 3%;
+  width: 100%;
+  background-color: #32502E;
+}
+.skill-block{
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  display: inline-block;
+  margin:auto;
+}
+.btn{
+  margin: 2%;
+}
+#what{
+  text-align: center;
+  margin: 10%
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 300%;
+  color: #32502E;
+
+  }
+body{
+  background: #F2FFDF;
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  position: relative;
+}
+h3{
+  font-size:200%;
+  margin: 2% 0 2% 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #32502E;
+}
+
+hr{
+  margin-top: 10%;
+  border-style: dotted;
+  border-color: black;
+  border-width: thick;
+  border-bottom: none;
+  width: 50px;
+  border-color:#EFEAD8;
+}
+p{
+  width: auto;
+  line-height: 2;
+  font-size: 150%;
+  margin-bottom: 0px;
+  color: #1E2022;
+}
+a{
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #F2FFDF;
+}
+.btn{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.btn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
